@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<malloc.h>
+#include <malloc.h>
 #include "circle.h"
 #include"jollyjumper.h"
 
@@ -23,11 +23,11 @@ int main(void) {
 
 	/*answer to exercise 7.b*/
 	int n; /*number of numbers to read*/
-	/*readin n and check that is is OK*/
+	/*reading n and check that is is OK*/
 
 	int *numbers = malloc(sizeof(int) * n); /*the numbers read*/
 
-	/*readin the n numbers in the array numbers*/
+	/*reading the n numbers in the array numbers*/
 
 	if (isJollyJumber(numbers, n)) {
 		printf("it is a Jolly Jumper");}
